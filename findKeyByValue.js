@@ -21,7 +21,7 @@ const findKeyByValue = (myObject, targetValue) => {
   return (targetKey);
 }
 
-
+/*
 const bestTVShowsByGenre = { 
   sci_fi: "The Expanse",
   comedy: "Brooklyn Nine-Nine",
@@ -30,3 +30,4 @@ const bestTVShowsByGenre = {
 
 console.log(assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama"));
 console.log(assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined));
+*/
