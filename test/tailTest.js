@@ -2,7 +2,7 @@ const assert = require('chai').assert;
 const tail = require("../tail");
 
 // Test Case: Check the original array
-describe ("#tail", () => {
+describe("#tail", () => {
   it("returns [\"Lighthouse\", \"Labs\"] for [\"Yo Yo\", \"Lighthouse\", \"Labs\"] keeping the 3 elements in the original array", () => {
     let words = ["Yo Yo", "Lighthouse", "Labs"];
     assert.deepEqual(tail(words), ["Lighthouse", "Labs"]);

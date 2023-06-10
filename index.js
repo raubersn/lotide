@@ -1,3 +1,4 @@
+//Importing the required external function
 const assertArraysEqual = require('./assertArraysEqual');
 const assertEqual = require('./assertEqual');
 const assertObjectsEqual = require('./assertObjectsEqual');
@@ -19,7 +20,7 @@ const tail = require('./tail');
 const takeUntil = require('./takeUntil');
 const without = require('./without');
 
-
+//Exporting all the functions in Lotide as an object using shorthand syntax from ES6.
 module.exports = {
   assertArraysEqual,
   assertEqual,
